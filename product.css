@@ -1,0 +1,105 @@
+.shoping-cart{
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+    border-radius: 5px;
+    z-index: 1;
+    box-shadow: 20px 20px 50px 10px pink inset;
+    border: 1px solid;
+   
+    
+
+}
+.cart-item{
+    padding-top: 10px;
+    padding-left: 110px;
+}
+.shoping-title{
+    font-size: 19px;
+    font-weight: 500;
+    padding-left: 90px;
+    padding-top: 10px;
+}
+.shoping-in{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 30px;
+    
+
+}
+.form-shoping{
+    width: 100px;
+}
+.shoping-inter{
+    position: absolute;
+    right: 0;
+    left: 110px;
+    top: 180px;
+}
+.shoping-in img {
+    height: 100px;
+    border-radius: 3px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+
+}
+.shop{
+    border: 1px solid rgb(69, 62, 62);
+}
+.push,
+.minus {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fa-solid.fa-trash{
+    padding-left: 20px;
+}
+.fa-solid.fa-money-bill{
+    color: rgb(231, 83, 83);
+    margin-left: 10px;
+}
+/* Cơ bản */
+.btn-cart {
+    background-color: #007bff;
+    /* Màu nền của nút */
+    color: #fff;
+    /* Màu chữ của nút */
+    padding: 10px 20px;
+    /* Kích thước đệm của nút */
+    border: none;
+    /* Loại bỏ đường viền */
+    border-radius: 5px;
+    /* Bo tròn góc của nút */
+    cursor: pointer;
+    /* Biến con trỏ thành hình tay khi di chuột qua nút */
+    font-size: 16px;
+    /* Kích thước chữ */
+    transition: background-color 0.3s ease;
+    /* Hiệu ứng chuyển đổi màu nền */
+}
+
+/* Hiệu ứng khi di chuột qua nút */
+.btn-cart:hover {
+    background-color: #0056b3;
+    /* Màu nền thay đổi khi di chuột qua nút */
+}
+
+/* Hiệu ứng khi nhấn giữ nút */
+.btn-cart:active {
+    background-color: #004080;
+    /* Màu nền khi nút đang được nhấn giữ */
+}
